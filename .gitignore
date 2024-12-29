@@ -1,0 +1,78 @@
+# Compiled object files
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.dll.config
+
+# Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# Build directories
+.vs/
+out/
+
+# Log files
+*.log
+
+# Configuration files
+appsettings.json
+appsettings.*.json
+!appsettings.json.example
+
+# Dependency directories
+node_modules/
+packages/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Generated files
+*.generated.cs
+
+# JetBrains Rider specific
+.idea/
+*.sln.iml
+
+# Recycle Bin used by Visual Studio Code
+.vscode/
+.vscode-test/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Azure Deployment
+.scm/
+
+# MacOS specific
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Coverage files
+*.coverage
+*.coveragexml
+TestResults/
+*.trx
+
+# Publish files
+.publish/

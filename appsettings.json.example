@@ -1,0 +1,17 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=tcp:example.database.windows.net,1433;Initial Catalog=ExampleDatabase;Persist Security Info=False;User ID=exampleUser;Password=examplePassword123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  },
+  "Jwt": {
+    "SecretKey": "example_256_bit_secret_key_here_example_256_bit_secret_key_here",
+    "Issuer": "ExampleIssuer",
+    "Audience": "ExampleAudience"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
